@@ -29,7 +29,10 @@ export default async function Home() {
           <ul className="list-disc pl-6 mt-2">
             <li>Are committed to achieving exceptional results</li>
             <li>Seek personalized guidance and accountability</li>
-            <li>Are struggling to make progress past a certain point</li>
+            <li>
+              Are struggling to make progress past a certain base level of
+              fitness
+            </li>
             <li>Are preparing for a race, military school, or competition</li>
             <li>Want to optimize your performance in work and life</li>
           </ul>

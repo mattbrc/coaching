@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer>
-      <div className="top-0 left-0 w-full flex justify-between items-end tracking-tighter pb-2">
+      <div className="top-0 left-0 w-full flex justify-between items-end tracking-tighter py-8 px-4">
         <div className="font-mono text-sm font-medium">
           <p>2024 Acid Gambit, LLC</p>
           <p>Washington D.C.</p>

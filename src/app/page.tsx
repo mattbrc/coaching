@@ -69,7 +69,7 @@ export default async function Home() {
 
         <section>
           <h2 className="text-2xl font-semibold mb-4">
-            Clients We've Worked With
+            Clients We&apos;ve Worked With
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Image
@@ -98,8 +98,8 @@ export default async function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">What Clients Say</h2>
           <blockquote className="italic bg-gray-100 p-4 rounded-lg">
-            "The coaching I received was transformative. It helped me break
-            through barriers and achieve goals I never thought possible."
+            The coaching I received was transformative. It helped me break
+            through barriers and achieve goals I never thought possible.
             <footer className="text-right mt-2">- Sarah K., CEO</footer>
           </blockquote>
         </section>

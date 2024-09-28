@@ -3,7 +3,6 @@ export const dynamic = "force-dynamic";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 export default async function Home() {
   return (
@@ -39,7 +38,7 @@ export default async function Home() {
         </section>
         <div className="mt-8 flex justify-center gap-4">
           <Link
-            href="https://cal.com/acidgambit/30min"
+            href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
           >
             Schedule a Consulation
@@ -121,7 +120,7 @@ export default async function Home() {
 
         <div className="mt-8 flex justify-center gap-4">
           <Link
-            href="https://cal.com/acidgambit/30min"
+            href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
           >
             Schedule a Consulation
@@ -254,7 +253,7 @@ export default async function Home() {
 
         <div className="mt-8 flex justify-center gap-4">
           <Link
-            href="https://cal.com/acidgambit/30min"
+            href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
           >
             Schedule a Consultation (completely free)

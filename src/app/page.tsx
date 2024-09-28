@@ -1,10 +1,11 @@
-export const dynamic = "force-dynamic";
+"use client";
 
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
+import { track } from "@vercel/analytics";
 
-export default async function Home() {
+export default function Home() {
   return (
     <main className="flex flex-col items-center w-full pt-2 pb-8 gap-8">
       <div className="max-w-[800px] w-full px-4 sm:px-6 md:px-8">
@@ -40,6 +41,7 @@ export default async function Home() {
           <Link
             href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
+            onClick={() => track("consult")}
           >
             Schedule a Consulation
           </Link>
@@ -122,6 +124,7 @@ export default async function Home() {
           <Link
             href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
+            onClick={() => track("consult2")}
           >
             Schedule a Consulation
           </Link>
@@ -255,6 +258,7 @@ export default async function Home() {
           <Link
             href="https://cal.com/acidgambit/intro"
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
+            onClick={() => track("consult3")}
           >
             Schedule a Consultation (completely free)
           </Link>

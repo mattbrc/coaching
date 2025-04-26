@@ -43,7 +43,7 @@ export default function Home() {
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
             onClick={() => track("consult")}
           >
-            Schedule a Consulation
+            Schedule a Consultation
           </Link>
         </div>
 
@@ -126,7 +126,7 @@ export default function Home() {
             className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition-colors"
             onClick={() => track("consult2")}
           >
-            Schedule a Consulation
+            Schedule a Consultation
           </Link>
         </div>
 

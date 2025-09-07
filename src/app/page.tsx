@@ -241,7 +241,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="rounded-lg bg-zinc-800 p-4">
               <h2 className="text-2xl font-semibold mb-4">Pricing</h2>
-              <p className="font-mono mt-2">$349/month</p>
+              <p className="font-mono mt-2">
+                <span className="line-through">$349</span> $249/month
+              </p>
               <ul className="list-disc pl-6 mt-2">
                 <li>4 week training blocks</li>
                 <li>Monthly google meet check-ins</li>

@@ -54,28 +54,8 @@ export default function Home() {
           <p>
             With over 2 decades of combined training and coaching experience in
             high-performance environments, our coaches bring a unique blend of
-            technical expertise, miltary experience, and leadership skills. Our
-            background includes:
+            technical expertise, miltary experience, and leadership skills.
           </p>
-          <ul className="list-disc pl-6 mt-2">
-            <li>
-              2 Coaches: Engineer Officer at the Pentagon and an SF Operator
-            </li>
-            <li>Military leadership experience (both officer and NCO)</li>
-            <li>Expertise in performance optimization and data analytics</li>
-            <li>
-              Previous world record holder for most Murphs completed in 24hrs
-            </li>
-            <li>
-              Numerous ultramarathon finishes (100k, 50 miles, 100 miles, and
-              100+ milers)
-            </li>
-            <li>
-              Sub-5 minute 1 mile time, sub 2 hour 12-mile ruck times, and 600
-              ACFTs{" "}
-            </li>
-            <li>Graduates of Ranger School and SFQC</li>
-          </ul>
         </section>
 
         <Separator className="my-8" />
